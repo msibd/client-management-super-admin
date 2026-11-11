@@ -9,3 +9,8 @@ data/
 next-env.d.ts
 tsconfig.tsbuildinfo
 .first-login.txt
+.production-secrets.txt
+.vercel
+
+.vercel
+.env*
