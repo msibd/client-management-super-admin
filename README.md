@@ -69,4 +69,4 @@ Create a token in **Settings**, then send `Authorization: Bearer <token>`.
 ## Deploy
 
 Push to your own Vercel project, set the environment variables from `.env.example`, and use Turso for `DATABASE_URL`.
-`vercel.json` runs `/api/cron/health` every 6 hours (Vercel Hobby allows daily crons, so change the schedule if needed).
+`vercel.json` runs `/api/cron/health` once a day (the most Vercel Hobby allows; use `0 */6 * * *` on a Pro plan).
